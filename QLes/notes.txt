@@ -1,0 +1,60 @@
+herstart 7-9-2019 samen met Niels
+Fouten samen opgelost op 8-9-2019
+
+Nieuwe planning gemaakt wat ik ga doen in welke vogorde vanaf nu:
+
+1 - startpagina App
+         welkom + naam + logo (done)
+         veld voor e-mailadres (done)
+         veld voor ww (done)
+         knop website (done)
+         Nieuw logo toegevoegd en indeling wat aangepast voor een betere verdeling (10-09-19)
+         startknop (10-9-19)
+         knop voor nieuwe registratie (10-9-19)
+
+2 - connectie met database leggen. (9-9-19)
+        uitzoeken hoe dit met Java moet. (9-9-19)
+        Na een tijdje zoeken gevonden (door de gegeven zoektips van Niels)
+            https://www.javatpoint.com/example-to-connect-to-the-mysql-database
+        mysql-connector.jar toegevoegd in jre\lib\ext voor het maken van de connectie met MySQL (9-9-19)
+
+----------------
+3 - button hebben een actie
+        website linkt door naar website bij aanklikken (10-9-2019)
+        registreren gaat naar registratie pagina (29-9-19)
+        start gaat naar specifieke gebruikerspagina (10-09-2019)
+        en controleert eerst inloggegevens eindgebruiker
+            userpage voor afnemer
+            userpage_t voor tutor
+            userpage_d voor docent -> of alleen website?
+            userpage_o voor ouder -> of alleen website?
+
+3B - Specifieke gebruikersrollen aanmaken voor de database:
+        "registreren" mag:      (19-9-19 -> ongoing at the moment)
+            alleen account, wachtwoord, voornaam, achternaam en rol toevoegen in de tabel gebruiker (19-9-19)
+            Upgraden gebruikersnummer.
+            gebruikersnaam: Registreren  (19-9-19)
+            ww: REgiSTraTIe-Qles!#$@  (19-9-19)
+    ZIE verder het bestand "gebruikersrollen.txt"
+
+3C - connectie via JDBC regelen
+        BLIJKT NIET MOGLEIJK TE ZIJN (24 & 26-9-19)
+        Gaan verder met Socktets regelen en connectie database via PHP op de server.
+
+3D - connectie via Sockets en PHP uitzoeken en regelen. (23-9-19 , 27-9-19)
+
+4 - Code invoegen in het mainbestand
+        code voor opgeven e-mail en wachtwoord
+        code voor controle e-mail en wachtwoord
+        code voor controle soort gebruiker
+
+5 - code en button voor nieuwe registratie
+        doorsluising andere pagina RegisterPage (19-9-19)_
+        andere pagina met velden(allen verplicht) voor registratie:
+            school kiezen
+            naam (voor- en achternaam [incl voorvoegsel])
+            e-mailadres voor account
+                    moet controle op komen of deze voldoet aan de eis (@+wat er achter komt
+                    op basis van de gekozen school)
+            soort gebruiker (5 smaken) -> zie ook "gebruikersrollen"
+

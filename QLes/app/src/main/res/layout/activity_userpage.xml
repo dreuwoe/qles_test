@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Website"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B71C1C"
+    android:clickable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:clipChildren="false"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="696dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="26dp">
+
+        <Button
+            android:id="@+id/nntb"
+            android:layout_width="97dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorThird"
+            android:onClick="NNTB"
+            android:text="NNTB"
+            android:textSize="10sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:drawingCacheQuality="auto"
+            android:foreground="@android:drawable/ic_lock_power_off"
+            android:labelFor="@id/start"
+            android:layerType="software"
+            android:onClick="Login"
+            android:soundEffectsEnabled="true"
+            android:tag="@android:string/ok"
+            android:transitionName="OK"
+            app:fabSize="auto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:maxImageSize="50dp"
+            app:useCompatPadding="false"
+            tools:rippleColor="@color/colorSecondary"
+            tools:srcCompat="@android:drawable/ic_lock_power_off" />
+
+        <Button
+            android:id="@+id/websitelink"
+            android:layout_width="71dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="20dp"
+            android:autoLink="web"
+            android:background="@color/colorSecondary"
+            android:onClick="ToWebsite"
+            android:text="Website."
+            android:textColor="@color/colorThird"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="339dp"
+            android:layout_height="343dp"
+            android:layout_marginTop="166dp"
+            android:text="Bijles aanvragen!"
+            android:textColor="#E0FFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

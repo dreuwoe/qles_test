@@ -1,0 +1,125 @@
+        "Afnemer" (QlesAfnemer  -  "82kXETnAfWqSVc02"     mag:
+            tabel gebruiker:
+                wachtwoord wijzigen
+                rol opgeven
+                voornaam opgeven
+                achternaam opgeven
+                soortleerling opgeven
+                leerjaar opgeven
+                bijles vraag opgeven
+                actief opgeven
+                overeenkomst_id opgeven
+             tabel bijlessen:
+                toevoegen, upgraden van:
+                    vak
+                    begindatum
+                    einddatum
+                    weekdag
+                    periode
+                    aanvangstijd
+                    aantal kwartieren
+                    eindtijd
+                    afnemer
+                 verwijderen:
+                    idem (mits nog actueel!!!!!)
+
+
+       "Tutor" ( QlesTutor  -    "xvAivaYoZTlWUZdD" )mag:
+             tabel gebruiker:
+                wachtwoord wijzigen
+                rol opgeven
+                voornaam opgeven
+                achternaam opgeven
+                soortleerling opgeven
+                leerjaar opgeven
+                bijles vraag opgeven
+                actief opgeven
+            tabel bijlessen:
+            toevoegen, upgraden van:
+                vak
+                begindatum
+                einddatum
+                weekdag
+                periode
+                aanvangstijd
+                aantal kwartieren
+                eindtijd
+                Tutor
+            verwijderen:
+                idem (mits nog actueel!!!!!)
+            tabel budget:
+                raadplegen
+
+
+
+       "Ouder" (QlesOuder   -   " QdTgrObdKjJaY1As " )mag:
+             tabel gebruiker:
+                wachtwoord wijzigen
+                rol opgeven
+                voornaam opgeven
+                achternaam opgeven
+                soortleerling opgeven
+                leerjaar opgeven
+                bijles vraag opgeven
+                actief opgeven
+                overeenkomst_id opgeven
+            tabel bijlessen:
+            raadplegen van:
+                vak
+                begindatum
+                einddatum
+                weekdag
+                periode
+                aanvangstijd
+                aantal kwartieren
+                eindtijd
+                Afnemer
+                (Tutor)
+            tabel budget:
+                toevoegen:
+                startdatum
+                inleg
+                einddatum
+            tabel overeenkomt
+                opgeven/wijzigen (LET OP : NIET TWK!!:
+                IBAN
+                naam rekeninghouder
+                budget
+                aut. afschrijven
+
+       "Docent" (  QlesDocent  -  "Or25rhIL9q8knQiu" ) mag:
+             tabel gebruiker:
+                wachtwoord wijzigen
+                rol opgeven
+                voornaam opgeven
+                achternaam opgeven
+                soortleerling opgeven
+                leerjaar opgeven
+                bijles vraag opgeven
+                actief opgeven
+                overeenkomst_id opgeven
+            tabel bijlessen:
+            raadplegen van:
+                vak
+                begindatum
+                einddatum
+                weekdag
+                periode
+                aanvangstijd
+                aantal kwartieren
+                eindtijd
+                Afnemer
+                Tutor
+            tabel locatie school
+                wijzigen of beeindigen per toekosmtdatum:
+                    alles behalve ID
+            tabel matchpoints
+                wijzigen of beeindigen per toekosmtdatum:
+                    alles behalve ID
+            tabel school
+                wijzigen per toekomstdatum:
+                    alles behalve werkgevernummer (is tevens ID)
+
+        AdministratieWerkwent ( AdministratieWerkwent  -  "RHK4t12Y3n0nHyft")
+
+        
